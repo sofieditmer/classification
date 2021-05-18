@@ -82,7 +82,7 @@ When running the ```nn-mnist.py``` you will get four outputs saved in the specif
 3. ```nn_model_loss_accuracy_history.png``` Visual representation of the loss/accuracy performance of the model during training. 
 4. ```nn_classification_metrics.txt``` Neural network classification metrics.
 
-### Discussion of Results
+### Discussion of Results <br>
 The initial logistic regression baseline classifier obtained a weighted average accuracy of 92% on the MNIST dataset (see [Classification Report](https://github.com/sofieditmer/classification/blob/main/output/lr_classification_metrics.txt)).
 The logistic regression classifier was trained with C-value of 0.1, representing its learning strength, the 'saga' algorithm as the optimization algorithm used, a tolerance value of 0.1, and the l2 as the regularization method. These hyperparameter values have been estimated as providing the best results by grid search. The classification report reveals that the F1-scores are high for all classes with the lowest accuracy score, i.e., 88%, obtained for class 5. Given that the lowest F1-score is 88%, it clearly demonstrates that the logistic regression classifier performs very well. <br>
 To test the logistic regression classifier, I also implemented a method that takes any image, performs some preprocessing steps, and uses the classifier to predict its class. The classifier was able to predict handwritten digits with 90-100% accuracy on several attempts. <br>

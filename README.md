@@ -9,7 +9,7 @@ The repository follows the overall structure below. The python scripts, ```lr-mn
 
 | Folder | Description|
 |--------|:-----------|
-| ```data``` | A folder containing a subset of the full dataset.
+| ```data``` | A folder containing an unseen image to use to test the logistic regression classifier. 
 | ```src``` | A folder containing the python scripts for the particular assignment.
 | ```utils```| A folder containing utility scripts that store functions that are used within the main python script.
 | ```output``` | A folder containing the outputs produced when running the python scripts within the src folder.

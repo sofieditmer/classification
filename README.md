@@ -1,21 +1,19 @@
 # Assignment 4: Classification Benchmarks
 
 ### Description of task: Classifier benchmarks using Logistic Regression and a Neural Network <br>
-This assignment was assigned by the course instructor as “Assignment 4 – Classification Benchmarks”. The purpose of this assignment was to demonstrate our knowledge of how to train classification models on the MNIST dataset using machine learning and neural networks that can be used as statistical benchmarks. The MNIST is a large dataset which consists of 70,000 handwritten digits and 10 unique classes and is commonly used for image processing and machine learning purposes. Two separate python scripts were to be created; ```lr-mnist.py``` that should take the full MNIST dataset, train a logistic regression classifier, print the evaluation metrics to the terminal and save them to an output directory, and ```nn-mnist.py``` that should take the full MNIST dataset, train a neural network classifier, print the evaluation metrics to the terminal, and save them in an output directory. 
-Apart from what was directly specified in the assignment description, I also chose to implement a method that performs grid search to estimate the most optimal hyperparameters to use when training the models.  Furthermore, I implemented a method that takes an unseen image, processes it, and uses the logistic classifier to predict its class. 
+This assignment was assigned by the course instructor as “Assignment 5 – CNNs on Cultural Image Data”. The purpose of the assignment was to build a deep convolutional neural network classifier that is able to predict impressionist artists from paintings, in order to demonstrate our understanding of how to preprocess real-world, complex image data to be compatible with deep convolutional neural networks, as well as our understanding of how to build and train a deep convolutional neural network.  
 
 ### Content and Repository Structure <br>
-
-The repository follows the overall structure below. The python scripts, ```lr-mnist.py``` and ```nn-mnist.py```, are located in the ```src``` folder. The outputs produced when running the scripts can be found within the ```output``` folder. In the ```utils``` folder a utility script for classification is stored.
+The repository follows the overall structure below. The python ```cnn-artistis.py``` is located in the ```src``` folder. The outputs produced when running the scripts can be found within the ```output``` folder. The ```data``` folder contains a subset of the full dataset. If the user wishes to obtain the full dataset on which the model was trained, it is available on [Kaggle](https://www.kaggle.com/delayedkarma/impressionist-classifier-data). To obtain the full dataset, I suggest downloading it from Kaggle and uploading it to the data folder as a zip-file and then unzipping it via the command line. Alternatively, I recommend setting up the Kaggle command-line which is explained in this [article](https://necromuralist.github.io/kaggle-competitions/posts/set-up-the-kaggle-command-line-command/).
 
 | Folder | Description|
 |--------|:-----------|
-| ```data``` | A folder containing an example of an unseen image for the logistic classifier to predict if one wishes to test it. 
+| ```data``` | A folder containing a subset of the full dataset.
 | ```src``` | A folder containing the python scripts for the particular assignment.
+| ```utils```| A folder containing utility scripts that store functions that are used within the main python script.
 | ```output``` | A folder containing the outputs produced when running the python scripts within the src folder.
-| ```utils``` | A folder containing utility scripts that store functions that are used within the main python script.
 | ```requirements.txt```| A file containing the dependencies necessary to run the python script.
-| ```create_edgedetection_venv.sh```| A bash-file that creates a virtual environment in which the necessary dependencies listed in the ```requirements.txt``` are installed. This script should be run from the command line.
+| ```create_classification_venv.sh```| A bash-file that creates a virtual environment in which the necessary dependencies listed in the ```requirements.txt``` are installed. This script should be run from the command line.
 | ```LICENSE``` | A file declaring the license type of the repository.
 
 

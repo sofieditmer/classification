@@ -1,0 +1,19 @@
+Below are the classification metrics for the logistic regression classifier: LogisticRegression(C=0.1, multi_class='multinomial', solver='saga', tol=0.01) 
+ 
+              precision    recall  f1-score   support
+
+           0       0.96      0.96      0.96      1383
+           1       0.94      0.98      0.96      1569
+           2       0.91      0.90      0.91      1357
+           3       0.91      0.89      0.90      1467
+           4       0.93      0.92      0.93      1362
+           5       0.88      0.88      0.88      1247
+           6       0.95      0.95      0.95      1407
+           7       0.93      0.94      0.93      1382
+           8       0.90      0.87      0.89      1375
+           9       0.90      0.90      0.90      1451
+
+    accuracy                           0.92     14000
+   macro avg       0.92      0.92      0.92     14000
+weighted avg       0.92      0.92      0.92     14000
+

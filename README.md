@@ -5,7 +5,7 @@ This assignment was assigned by the course instructor as “Assignment 4 – Cla
 Apart from what was directly specified in the assignment description, I also chose to implement a method that performs grid search to estimate the most optimal hyperparameters to use when training the models.  Furthermore, I implemented a method that takes an unseen image, processes it, and uses the logistic classifier to predict its class.   
 
 ### Content and Repository Structure <br>
-The repository follows the overall structure below. The python ```cnn-artistis.py``` is located in the ```src``` folder. The outputs produced when running the scripts can be found within the ```output``` folder. The ```data``` folder contains a subset of the full dataset. If the user wishes to obtain the full dataset on which the model was trained, it is available on [Kaggle](https://www.kaggle.com/delayedkarma/impressionist-classifier-data). To obtain the full dataset, I suggest downloading it from Kaggle and uploading it to the data folder as a zip-file and then unzipping it via the command line. Alternatively, I recommend setting up the Kaggle command-line which is explained in this [article](https://necromuralist.github.io/kaggle-competitions/posts/set-up-the-kaggle-command-line-command/).
+The repository follows the overall structure below. The python scripts, ```lr-mnist.py``` and ```nn-mnist.py```, are located in the ```src``` folder. The outputs produced when running the scripts can be found within the ```output``` folder. In the ```utils``` folder a utility script for classification is stored. 
 
 | Folder | Description|
 |--------|:-----------|

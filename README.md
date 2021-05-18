@@ -28,7 +28,7 @@ If the user wishes to engage with the code and reproduce the obtained results, t
 $ git clone https://github.com/sofieditmer/classification.git
 ```
 
-Once the user has cloned the repository, a virtual environment must be set up in which the relevant dependencies can be installed. To set up the virtual environment and install the relevant dependencies, a bash-script is provided, which automatically creates a virtual environment and installs the necessary dependencies listed in the ```requirements.txt``` file. To run the bash-script that sets up the virtual environ-ment and installs the relevant dependencies, the user must execute the following from the command line. 
+Once the user has cloned the repository, a virtual environment must be set up in which the relevant dependencies can be installed. To set up the virtual environment and install the relevant dependencies, a bash-script is provided, which automatically creates a virtual environment and installs the necessary dependencies listed in the ```requirements.txt``` file. To run the bash-script that sets up the virtual environment and installs the relevant dependencies, the user must execute the following from the command line. 
 
 ```
 $ cd classification
@@ -51,7 +51,7 @@ Once the virtual environment has been activated, the user is now able to run the
 (classification_venv) $ python nn-mnist.py
 ```
 
-For the lr-mnist.py script, the user is able to modify the following parameters, however, as mentioned this is not compulsory:
+For the ```lr-mnist.py``` script, the user is able to modify the following parameters, however, as mentioned this is not compulsory:
 
 ```
 -o, --output, str <name-of-output-file>, default = "lr_classification_metrics.txt"
@@ -59,7 +59,7 @@ For the lr-mnist.py script, the user is able to modify the following parameters,
 -u, --unseen_img: str <path-to-unseen-image>, default = None
 ```
 
-For the nn-mnist.py script, the user is able to modify the following parameters, but again, this is not compulsory:
+For the ```nn-mnist.py``` script, the user is able to modify the following parameters, but again, this is not compulsory:
 
 ```
 -o, --output, str <name-of-output-file>, default = "nn_classification_metrics.txt"
@@ -77,7 +77,7 @@ When running the ```lr-mnist.py``` you will get two outputs saved in the specifi
 1. ```lr_classification_metrics.txt``` Logistic regression classification metrics.
 2. ```confusion_matrix.png``` Normalized confusion matrix. This provides an overview of how well the classifier performed. 
 
-When running the ```nn-mnist.py``` you will get two outputs saved in the specified output directory:
+When running the ```nn-mnist.py``` you will get four outputs saved in the specified output directory:
 1. ```nn_model_summary.txt``` Summary of the model architecture.
 2. ```nn_model_architecture.png``` Visual overview of the model architecture.
 3. ```nn_model_loss_accuracy_history.png``` Visual representation of the loss/accuracy performance of the model during training. 

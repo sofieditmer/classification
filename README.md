@@ -1,6 +1,6 @@
 # Assignment 4: Classification Benchmarks
 
-### Description of task: Classifier benchmarks using Logistic Regression and a Neural Network <br>
+### Description of Task: Classifier Benchmarks Using Logistic Regression and a Neural Network <br>
 This assignment was assigned by the course instructor as “Assignment 4 – Classification Benchmarks”. The purpose of this assignment was to demonstrate our knowledge of how to train classification models on the MNIST dataset using machine learning and neural networks that can be used as statistical benchmarks. The MNIST is a large dataset which consists of 70,000 handwritten digits and 10 unique classes and is commonly used for image processing and machine learning purposes. Two separate python scripts were to be created; ```lr-mnist.py``` that should take the full MNIST dataset, train a logistic regression classifier, print the evaluation metrics to the terminal and save them to an ```output``` directory, and ```nn-mnist.py``` that should take the full MNIST dataset, train a neural network classifier, print the evaluation metrics to the terminal, and save them in an ```output``` directory. 
 Apart from what was directly specified in the assignment description, I also chose to implement a method that performs grid search to estimate the most optimal hyperparameters to use when training the models.  Furthermore, I implemented a method that takes an unseen image, processes it, and uses the logistic classifier to predict its class.   
 
